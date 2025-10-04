@@ -1,0 +1,117 @@
+.center_data{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    margin-right: 2px;
+    font-size: 14px!important;
+}
+.header {
+    display: block;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    background-color: rgb(119, 165, 165);
+    vertical-align:middle;
+    padding: 10px 0px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .nav_item {
+    margin: 0px 10px;
+}
+nav .nav_item a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    border-bottom: 2px solid white;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(119, 165, 165);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
+h3{
+    margin: 0px;
+}
+form{
+    border: 1px solid lightgrey;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    margin: 5rem auto;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
+.form_title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.form_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+input{
+    padding: 6px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+button{
+    padding: 6px;
+    background-color: rgb(119, 165, 165);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+form p{
+    text-align: center;
+}
+form a{
+    color: rgb(119, 165, 165);
+}
+
+.logout,.not_found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+}
+
+.home_tracker{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
