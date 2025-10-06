@@ -15,4 +15,4 @@
   - Expense - add all you expenses and debts
 
 # Project Link
-  https://expense-tracker-xzwi.vercel.app/login
+  https://expense-tracker-xzwi.vercel.app/
